@@ -1,0 +1,68 @@
+.home-item{
+    height: 100vh;
+    min-height: 300px;
+    background-repeat: no-repeat center center center scroll;
+    -webkit-background-size: cover:
+    background-size: cover;
+}
+
+.home-caption h5{
+    font-size: 45px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 25px;
+    font-family: 'Merienda', cursive;
+}
+.home-caption p{
+    width: 60%;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.9;
+    font-family: 'Poppins';
+}
+.home-caption a{
+    text-transform: uppercase;
+    background-color: #262626;
+    text-decoration: none;
+    padding: 10px 30px ;
+    margin-top: 15px;
+    color: #fff;
+    display: inline-block;
+}
+.home-navbar a{
+    font-family: 'Poppins';
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: bold;
+}
+.home-light .home-brand {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+#bar-link{
+    color: #fff;
+    font-weight: bold;
+    padding: .2rem 2rem;
+}
+.home-navbar{
+    text-align: center;
+}
+.home-light .home-navbar .nav-link:focus, .home-light .home-navbar .nav-link:hover{
+    color:orangered!important;
+}
+.navbar-light .navbar-toggler {
+    background: #fff;
+}
+.w-100{
+    height: 100vh;
+}
+@media only screen and (max-width:767px) {
+    .navbar-nav.ml-auto{
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+    
+    
+}
